@@ -132,7 +132,7 @@ public class Cajero extends javax.swing.JFrame {
         monto = Integer.parseInt(jtxtmonto.getText());
         
         if (monto > saldo) {
-            JOptionPane.showMessageDialog(null, "POBRE MALDITO");
+            JOptionPane.showMessageDialog(null, "POBRE prro");
             jtxtmonto.setText("");
         } else {            
             saldo = saldo - monto;

@@ -27,6 +27,7 @@ public class Cajero extends javax.swing.JFrame {
         jlblmonto = new javax.swing.JLabel();
         jtxtmonto = new javax.swing.JTextField();
         jbtnsaldo = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
         javax.swing.GroupLayout jDialog1Layout = new javax.swing.GroupLayout(jDialog1.getContentPane());
         jDialog1.getContentPane().setLayout(jDialog1Layout);
@@ -64,6 +65,8 @@ public class Cajero extends javax.swing.JFrame {
             }
         });
 
+        jLabel1.setText("AGREGE ESTO");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -81,6 +84,8 @@ public class Cajero extends javax.swing.JFrame {
                             .addComponent(jbtnretiro, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jlblsaldo, javax.swing.GroupLayout.PREFERRED_SIZE, 207, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel1)
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
@@ -103,8 +108,13 @@ public class Cajero extends javax.swing.JFrame {
                         .addComponent(jbtnretiro)))
                 .addGap(43, 43, 43)
                 .addComponent(jbtnsaldo)
-                .addGap(18, 18, 18)
-                .addComponent(jlblsaldo, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addComponent(jlblsaldo, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(28, 28, 28)
+                        .addComponent(jLabel1)))
                 .addContainerGap(57, Short.MAX_VALUE))
         );
 
@@ -202,12 +212,16 @@ public class Cajero extends javax.swing.JFrame {
         
         
     }
+    public void probandogit(){
+    //agregue esto 
+    }
     
     
     
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JDialog jDialog1;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JButton jbtndeposito;
     private javax.swing.JButton jbtnretiro;
     private javax.swing.JButton jbtnsaldo;

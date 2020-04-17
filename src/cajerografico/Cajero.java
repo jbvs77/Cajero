@@ -205,6 +205,9 @@ public class Cajero extends javax.swing.JFrame {
     public void probandoGit(){
     
     }
+    public void hehesalu2(){
+    
+    }
     
     
     
